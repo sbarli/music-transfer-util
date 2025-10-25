@@ -1,4 +1,9 @@
 {
   "name": "music-transfer",
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.6.0",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "music-metadata": "^11.9.0"
+  }
 }

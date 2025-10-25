@@ -11,3 +11,11 @@
 
 #!.yarn/cache
 .pnp.*
+
+# read/write files from runs
+output/*
+input/*
+
+# environment variables
+.env
+!.env.example
